@@ -17,7 +17,7 @@ export const ThemeContext = createContext();
     }
 }
 
-
+// added for pr
 
   return (<ThemeContext.Provider value={{mode,themeChange}}>
    {/* <div className={`${mode}`}>{children}</div>  */}
